@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: #0c0c0c;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+.display {
+    height: 70px;
+    background-color: rgb(243, 164, 222);
+    border: 3px solid #000;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.buttons button {
+    background-color: rgb(192, 248, 248);
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 24px;
+}
